@@ -17,7 +17,7 @@
     </div>
 
     <div v-if="!finJuego">
-      <div class="hijo">
+      <div class="hijos">
         <Hijo
           v-for="(hijo, index) in hijos"
           :key="index"
@@ -145,14 +145,16 @@ button {
   border: solid 2px black;
 }
 
-.hijo {
+.hijos {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
-.info{
-display: flex;
-justify-content: space-evenly;
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 </style>
