@@ -12,6 +12,11 @@ export default {
 </script>
 
 <style>
+.hijo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .hijo img {
   width: 100px;
@@ -19,8 +24,8 @@ export default {
   object-fit: cover;
 }
 
-.hijo {
-    display: block;
+.hijo p {
+  margin-top: 5px;
+  text-align: center;
 }
-
 </style>
